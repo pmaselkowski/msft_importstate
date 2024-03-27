@@ -1,0 +1,10 @@
+{
+  "name": "maslosoft/customorderreference_prestashop",
+  "description": "Custom Order Reference for PrestaShop",
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "Maslosoft\\CustomOrderReference\\": "src"
+    }
+  }
+}
