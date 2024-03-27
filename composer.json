@@ -1,10 +1,13 @@
 {
-  "name": "maslosoft/customorderreference_prestashop",
-  "description": "Custom Order Reference for PrestaShop",
+  "name": "maslosoft/import_states_prestashop",
+  "description": "Import store states for PrestaShop",
   "license": "proprietary",
   "autoload": {
     "psr-4": {
-      "Maslosoft\\CustomOrderReference\\": "src"
+      "Maslosoft\\ImportStates\\": "src"
     }
+  },
+  "require": {
+    "league/csv": "^9"
   }
 }
